@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+span {
+    color: #FF7F27;
+}
+
+#description{
+    color: #FF7F27;
+}
+
+#information-form{
+    text-align: left;
+    padding: 2rem;
+}
+
+button {
+	background-color: #141416;
+	border-radius:10px;
+	border:2px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+    transition: border-color 0.5s, background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+
+button:hover {
+	background-color:#FF7F27;
+    border-color: #FF7F27;
+}
+
+button:active {
+	position:relative;
+	top:1px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border-color: #FF7F27;
+    box-sizing: border-box;
+    border-radius:10px;
+}
+
+input[type=date] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border-color: #FF7F27;
+    box-sizing: border-box;
+    border-radius:10px;
+}
+
+.centralized-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    padding: 10px;
+    max-width: 720px;
+    text-align: center;
+    padding: 2rem;
+    background-color: #141416;
+    border-radius:10px;
+}
+
+.container img {
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}

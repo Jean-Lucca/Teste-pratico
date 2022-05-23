@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <script src="scripts/navbar.js"></script>
+    </header>
+    <main>
+        <img src="imgs/contralized-image.png" alt="Central Image" class="centralized-image">
+        <div class="container">
+            <form id="information-form" action="results.html" method="get">
+                <div class="mb-3">
+                <label id="name-label" class="form-label">Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your Name" required="">
+                </div>
+                <label id="birthday-label" class="form-label">Birthday</label>
+                <input type="date" name="birthday" id="birthday" class="form-control" placeholder="Enter your birthday" required="">
+                
+                <input name="check-required" value="" type="checkbox" required="">
+                Click here</label>
+                <hr>
+                <button>submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
